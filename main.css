@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: #d9d9d9;
+}
+
+/* First section starts here */
+
+.firstsection{
+    border: 3px solid tomato;
+    width: 1000px;
+    margin:50px auto;
+    display: flex;
+    background: white;
+}
+
+.left__section{
+    display: flex;
+}
+
+.nav__iconholder{
+    border: 3px solid black;
+    height: 900px;
+    width: 40px;
+    background: white;
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 0; */
+
+}
+span{
+    padding: 15px 0;
+}
+.nav__textholder{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__textholder p{
+    padding: 45px;
+    transform: rotate(-90deg);
+    color: #8B8B8B;
+}
+
+.smartline{
+    width: 0.5px;
+    height: 100px;
+    background: #8B8B8B;
+    padding-top: 20px;
+}
+/*First section ends here */
+
+/* Our sofa starts here /*/
+.oursofa{
+    border: 3px solid blue;
+    width: 220px;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', sans-serif;
+    background: white;
+}
+
+.oursofa span{
+    color: #FDBF44;
+}
+/* Our sofa ends here /*/
+
+/* right section starts here */
+
+.right__section{
+    border: 3px solid green;
+    height: 800px;
+    width: 800px;
+    background: url(./img/sofashop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.nav__linkholder{
+    border: 3px solid orange;
+    width: 550px;
+    margin-left: auto;
+    padding: 18px 0;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav__linkholder a{
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    margin: 130px ;
+    line-height: 50px;
+}
+
+h2 span{
+    color: #FDBF44;
+    margin-left: 150px;
+}
+
+h1{
+    border: 3px solid black;
+    font-size: 150px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: right;
+    /* color: rgba(255, 255, 255, 0.314194); */
+    line-height: 140px;
+    margin-top: 364px;
+    margin-left: auto;
+    width: 150px;      
+}
+
+
+/* right section ends here */
